@@ -1,0 +1,111 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        {
+            "command": {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{8bf2d7ce-4310-535d-8cfe-1fe3b5f5a5b1}",
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "adjustIndistinguishableColors": "always",
+            "backgroundImage": "C:\\Users\\user\\Downloads\\wallpaper.jpg",
+            "backgroundImageOpacity": 0.06,
+            "backgroundImageStretchMode": "uniformToFill",
+            "colorScheme": "Dark+",
+            "cursorShape": "vintage",
+            "padding": "8"
+        },
+        "list": [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": true,
+                "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{8bf2d7ce-4310-535d-8cfe-1fe3b5f5a5b1}",
+                "hidden": false,
+                "icon": "C:\\config-shit\\archlinux-icon.ico",
+                "name": "ArchLinux",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}",
+                "hidden": false,
+                "name": "Ubuntu 24.04.1 LTS",
+                "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{4ebdc201-93f2-5914-a6fa-6f6bf882cbea}",
+                "hidden": false,
+                "name": "OracleLinux_9_1",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{cb13e83d-2455-5bb0-9ebd-44fa1fc244fc}",
+                "hidden": false,
+                "name": "Debian12",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-22.04-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        }
+    ],
+    "themes": []
+}
